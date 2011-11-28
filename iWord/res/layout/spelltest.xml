@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/homebg">
+  <LinearLayout  android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+               <ImageButton android:id="@+id/spellBackToHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:background="@anim/backbtn"/>
+       <TextView android:id="@+id/spellListName"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="25sp"
+                  android:textColor="#FFFFFF" />
+
+   </LinearLayout>
+   <LinearLayout android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/meaning_word_bg"
+                 android:orientation="vertical"
+                 android:layout_marginTop="35dip"> 
+        <TextView android:id="@+id/spellMeaning"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:textSize="25sp"
+                  android:layout_marginTop="10dip"
+                  android:layout_marginLeft="35dip"
+                  android:textColor="#888"/>
+       <TextView android:id="@+id/spellWord"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:textSize="35sp"
+                  android:layout_marginLeft="35dip"
+                  android:textColor="#000000"/>   
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_marginTop="35dip"> 
+        <TextView android:id="@+id/spellHint"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:layout_marginLeft="35dip"
+                  android:textSize="15sp"
+                  android:textColor="#FFFFFF"/>
+          <LinearLayout android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:layout_marginLeft="35dip"> 
+            <EditText android:id="@+id/spellText"
+                  android:layout_width="200dip" 
+                  android:layout_height="wrap_content"
+                  android:freezesText="false" />     
+            <Button android:id="@+id/spellShowAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="答案"/>
+          </LinearLayout>
+   </LinearLayout>
+   <LinearLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_gravity="bottom"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical"
+                 android:layout_marginTop="82dip"> 
+        <ImageButton android:id="@+id/spellNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"        
+                android:background="@anim/nextbtn" />
+   </LinearLayout>
+</LinearLayout>

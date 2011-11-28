@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/homebg"
+  android:gravity="center_horizontal">
+  <LinearLayout  android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+        <ImageButton android:id="@+id/meaningbackToHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:background="@anim/backbtn"/>
+       <TextView android:id="@+id/meaningListName"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="25sp"
+                  android:textColor="#FFFFFF" />                
+       
+   </LinearLayout>
+   <LinearLayout android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/meaning_word_bg"
+                 android:orientation="vertical" 
+                 android:layout_marginTop="20dip"                
+                 >      
+                 
+        <TextView android:id="@+id/meaningWord"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:textSize="35sp"
+                  android:layout_marginLeft="35dip"
+                  android:layout_marginTop="10dip"
+                  android:textColor="#000000"/>
+        <TextView android:id="@+id/meaning"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:textSize="20sp"
+                  android:layout_marginLeft="35dip"
+                  android:textColor="#888"/>
+   </LinearLayout>
+   <LinearLayout android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:gravity="center_horizontal"
+                 >      
+        <Button android:id="@+id/meaning1"
+                android:layout_height="50dip" 
+                android:layout_width="240dip"/>
+        <Button android:id="@+id/meaning2"
+                android:layout_height="50dip"
+                android:layout_width="240dip"/>
+        <Button android:id="@+id/meaning3"
+                android:layout_height="50dip" 
+                android:layout_width="240dip"/>
+        <Button android:id="@+id/meaning4"
+                android:layout_height="50dip" 
+                android:layout_width="240dip"/>
+    </LinearLayout>
+   <LinearLayout android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="bottom"
+                 android:gravity="center_horizontal" >      
+           <ImageButton android:id="@+id/meaningNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:background="@anim/nextbtn" />
+    </LinearLayout>
+</LinearLayout>

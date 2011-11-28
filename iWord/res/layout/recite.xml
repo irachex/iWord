@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/homebg">
+    <LinearLayout  android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+              <ImageButton android:id="@+id/backToHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:background="@anim/backbtn"/>
+       <TextView android:id="@+id/reciteListName"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="25sp"
+                  android:textColor="#FFFFFF" />                
+   </LinearLayout>
+   <LinearLayout  android:layout_width="fill_parent"
+                 android:layout_height="250dip"
+                 android:orientation="vertical"
+                 android:background="@drawable/recite_word_bg"
+                 android:layout_marginTop="35dip"
+                 android:layout_marginBottom="35dip">
+       <TextView android:id="@+id/reciteWord"
+                  android:layout_width="300dip"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="35dip"
+                  android:paddingLeft="35dip"
+                  android:textColor="#000000" 
+                  android:textSize="40sp"/>
+        <TextView android:id="@+id/reciteMeaning"
+                  android:layout_width="300dip"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="35dip"
+                  android:textColor="#888"
+                  android:textSize="30sp" />
+   </LinearLayout>
+   <LinearLayout  android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="bottom"
+                 android:gravity="center_horizontal"
+                 android:layout_marginTop="10dip"
+                 android:orientation="vertical"> 
+        <ImageButton android:id="@+id/reciteNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:background="@anim/nextbtn" />
+   </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, iWord!</string>
+    <string name="app_name">iWord</string>
+    <string-array name="VListFullName">
+        <item>大学英语四级</item>
+        <item>大学英语六级</item>
+        <item>大学英语词组</item>
+        <item>TOFEL词汇</item>
+        <item>GRE词汇</item>
+        <item>雅思核心词汇</item>
+        <item>GMAT词汇</item>
+        <item>计算机专业词汇</item>
+        <item>商务英语</item>
+    </string-array>
+    <string-array name="VListName">
+        <item>cet4</item>
+        <item>cet6</item>
+        <item>collegephrase</item>
+        <item>tofel</item>
+        <item>gre</item>
+        <item>itelts</item>
+        <item>gmat</item>
+        <item>computer</item>
+        <item>business</item>
+    </string-array>
+    <string name="PleaseSelectAList">请选择词库</string>
+    <string name="Loading">正在更新词库</string>
+<color name="WrongColor">#FF6A6A</color>
+<color name="RightColor">#00EE00</color>
+</resources>
